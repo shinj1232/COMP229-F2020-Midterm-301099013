@@ -45,17 +45,14 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/shinj1232/COMP229-F2020-Midterm-301099013.git"
   },
   "keywords": [
     "NodeJS",
     "ExpressJS",
     "EJS"
   ],
-  "author": "Your Name Goes Here",
+  "author": "Hyunjune Shin",
   "license": "ISC",
-  "bugs": {
-    "url": ""
-  },
-  "homepage": ""
+  "homepage": "https://github.com/shinj1232/COMP229-F2020-Midterm-301099013#readme"
 }
