@@ -1,3 +1,4 @@
+<!-- Hyunjune Shin 301099013 COMP229-F2020-MidTerm-301099013 -->
 <% include ../partials/header.ejs %>
 
     <!-- MAIN CONTENT -->
@@ -5,9 +6,8 @@
       <div class="row">
         <div class="col-md-offset-1 col-md-10">
           <h3>Favourite Books List </h3>
-          <!-- ------------------------ -->
-          <!-- FIX THE ADD BUTTON BELOW -->
-          <!-- ------------------------ -->
+          <!-- had empty href link so I linked it to /books/add -->
+          <!-- This will go to details.ejs -->
           <a href="/books/add" class="btn btn-primary"><i class="fa fa-plus"></i> Add a book</a>
           <br>
           <div class="table-responsive">
@@ -32,17 +32,15 @@
                   <td class="text-center"><%= books[count].Genre %></td>
 
                   <td class="text-center">
-                    <!-- ------------------------ -->
-                    <!-- ADD the EDIT BUTTON HERE -->
-                    <!-- ------------------------ -->
+                    <!-- I corrected the href to the correct id-->
+                    <!-- This will go to details.ejs with its' id-->
                     <a href="/books/<%= books[count]._id %>" class="btn btn-primary">
                     <i class="fas fa-pencil-alt"></i> Edit</a>
                   </td>
 
                   <td class="text-center">
-                    <!-- ------------------------ -->
-                    <!-- ADD the DELETE BUTTON HERE -->
-                    <!-- ------------------------ -->
+                    <!-- corrected href to delete with correct id -->
+                    <!-- will preform delete -->
                     <a href="/books/delete/<%= books[count]._id %>" class="btn btn-danger">
                     <i class="fas fa-trash-alt"></i> Delete</a>
 

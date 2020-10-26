@@ -1,4 +1,4 @@
-//Hyunjune Shin 301099013
+//Hyunjune Shin 301099013 COMP229-F2020-MidTerm-301099013
 let express = require("express");
 let router = express.Router();
 let mongoose = require('mongoose');
